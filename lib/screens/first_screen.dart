@@ -20,7 +20,7 @@ class FirstScreen extends StatelessWidget {
         fontStyle: FontStyle.italic,
         fontWeight: FontWeight.bold,
         wordSpacing: 15,
-   
+
         backgroundColor: Colors.amber,
       ),),
     );
