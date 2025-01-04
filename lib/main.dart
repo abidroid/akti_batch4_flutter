@@ -1,3 +1,4 @@
+import 'package:akti_batch4_flutter/screens/button_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/first_screen.dart';
 import 'package:akti_batch4_flutter/screens/second_screen.dart';
 import 'package:akti_batch4_flutter/screens/stack_demo_screen.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home: const StackDemoScreen(), // launcher screen
+      home: const ButtonDemoScreen(), // launcher screen
     );
   }
 }
