@@ -49,6 +49,7 @@ class ButtonDemoScreen extends StatelessWidget {
 
           Icon(Icons.settings),
           IconButton(onPressed: (){}, icon: Icon(Icons.rss_feed)),
+
         ],
       ),
     );
