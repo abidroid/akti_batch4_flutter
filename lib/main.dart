@@ -1,3 +1,4 @@
+import 'package:akti_batch4_flutter/screens/bulb_on_off_screen.dart';
 import 'package:akti_batch4_flutter/screens/button_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/first_screen.dart';
 import 'package:akti_batch4_flutter/screens/gridview_demo1_screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home:  StatefulDemoScreen(), // launcher screen
+      home:  BulbOnOffScreen(), // launcher screen
     );
   }
 }
