@@ -6,6 +6,7 @@ import 'package:akti_batch4_flutter/screens/listview_demo1_screen.dart';
 import 'package:akti_batch4_flutter/screens/listview_demo2_screen.dart';
 import 'package:akti_batch4_flutter/screens/second_screen.dart';
 import 'package:akti_batch4_flutter/screens/stack_demo_screen.dart';
+import 'package:akti_batch4_flutter/screens/stateful_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/third_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home: const FirstScreen(), // launcher screen
+      home:  StatefulDemoScreen(), // launcher screen
     );
   }
 }
