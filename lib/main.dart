@@ -1,5 +1,7 @@
 import 'package:akti_batch4_flutter/screens/button_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/first_screen.dart';
+import 'package:akti_batch4_flutter/screens/gridview_demo1_screen.dart';
+import 'package:akti_batch4_flutter/screens/images_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/listview_demo1_screen.dart';
 import 'package:akti_batch4_flutter/screens/listview_demo2_screen.dart';
 import 'package:akti_batch4_flutter/screens/second_screen.dart';
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home: const ListviewDemo2Screen(), // launcher screen
+      home: const ImagesDemoScreen(), // launcher screen
     );
   }
 }
