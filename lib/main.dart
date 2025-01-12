@@ -6,6 +6,7 @@ import 'package:akti_batch4_flutter/screens/images_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/listview_demo1_screen.dart';
 import 'package:akti_batch4_flutter/screens/listview_demo2_screen.dart';
 import 'package:akti_batch4_flutter/screens/second_screen.dart';
+import 'package:akti_batch4_flutter/screens/simple_calc_screen.dart';
 import 'package:akti_batch4_flutter/screens/stack_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/stateful_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/tf_demo_screen.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home:  TfDemoScreen(), // launcher screen
+      home:  SimpleCalcScreen(), // launcher screen
     );
   }
 }
