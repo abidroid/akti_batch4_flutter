@@ -8,7 +8,6 @@ class BulbOnOffScreen extends StatefulWidget {
 }
 
 class _BulbOnOffScreenState extends State<BulbOnOffScreen> {
-
   // initial state
   bool switchStatus = true;
 
@@ -22,14 +21,17 @@ class _BulbOnOffScreenState extends State<BulbOnOffScreen> {
         ),
         body: Column(
           children: [
-            Icon(Icons.bolt, size: 250, color: switchStatus ? Colors.amber : Colors.black,),
-            Switch(value: switchStatus, onChanged: (newValue) {
-              switchStatus = newValue;
-              setState(() {
-
-              });
-
-            })
+            Icon(
+              Icons.bolt,
+              size: 250,
+              color: switchStatus ? Colors.amber : Colors.black,
+            ),
+            Switch(
+                value: switchStatus,
+                onChanged: (newValue) {
+                  switchStatus = newValue;
+                  setState(() {});
+                })
           ],
         ));
   }
