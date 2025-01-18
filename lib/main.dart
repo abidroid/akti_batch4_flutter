@@ -1,3 +1,4 @@
+import 'package:akti_batch4_flutter/pages/home_page.dart';
 import 'package:akti_batch4_flutter/screens/bulb_on_off_screen.dart';
 import 'package:akti_batch4_flutter/screens/button_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/first_screen.dart';
@@ -12,6 +13,8 @@ import 'package:akti_batch4_flutter/screens/stateful_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/tf_demo_screen.dart';
 import 'package:akti_batch4_flutter/screens/third_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'pages/courses_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home:  SimpleCalcScreen(), // launcher screen
+      home:  HomePage(), // launcher screen
     );
   }
 }
